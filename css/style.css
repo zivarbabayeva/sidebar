@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    text-align: center;
+    height: 100vh;
+    width: 0%;
+    transition: .6s;
+    background-color: aquamarine;
+    visibility: hidden
+}
+
+#sidebar a {
+    display: block;
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.menu-active {
+    width: 100% !important;
+    visibility: visible !important
+}
+
+#icon {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: teal;
+
+}
